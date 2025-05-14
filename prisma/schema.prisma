@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = env("postgresql://techup_sample_database_t3u9_user:m94zhfPOm9sAe6Jvjhto9f6YbAqVNYtp@dpg-d0e3u3pr0fns73cnmsjg-a/techup_sample_database_t3u9")
 }
 
 // Post model represents individual blog posts
