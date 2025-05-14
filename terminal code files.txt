@@ -1,0 +1,5 @@
+## install package for local host running
+$ npm install nodemon -g 
+
+## amend 'server.js' to the corresponding file name
+$ nodemon server.js (edited) 
